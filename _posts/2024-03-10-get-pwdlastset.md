@@ -1,6 +1,6 @@
 ---
 title: Automating Password Change Reporting in Active Directory with PowerShell
-date: 2024-03-05 12:00:00 -0600
+date: 2024-03-05 11:59:00 -0600
 categories: [scripting, powershell]
 tags: [powershell. compliance, password policy]
 ---
