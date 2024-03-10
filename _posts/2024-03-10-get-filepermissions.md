@@ -1,15 +1,19 @@
 ---
 title: Simplifying File Permission Management with PowerShell
-date: 3/10/2024 12:00:00 -500
-categories: [scripting, auditing]
-tags: [powershell. file permissions]
+date: 2024-03-05 12:00:00 -0600
+categories: [scripting, powershell]
+tags: [powershell. file permissions, compliance]
 ---
 
-# Simplifying File Permission Management with PowerShell
 Managing file permissions across a network can be a daunting task, especially as the number of files and folders grows. However, with PowerShell, you can streamline this process and gain valuable insights into your file system's security posture. Let's explore how a PowerShell script can help you retrieve file permissions and generate a detailed report.
 
 ## Download here:
 https://github.com/GluttonousSec/Get-FilePermissions
+
+## Using the Script:
+```powershell
+.\GetFilePermissions.ps1 -FolderPath "C:\Path\to\your\folder"
+```
 
 ## Purpose
 The purpose of this PowerShell script is to recursively iterate through a given folder and its subfolders, retrieving file permissions for each file and folder. By capturing this information in a CSV file, administrators can easily analyze and audit access controls, identify potential security risks, and ensure compliance with organizational policies.
@@ -17,10 +21,6 @@ The purpose of this PowerShell script is to recursively iterate through a given 
 ## How it's Used
 Using the script is straightforward. Simply provide the path to the root folder you want to analyze as a command-line argument when executing the script. The script will then traverse through the specified folder and its subfolders, extracting file paths, user accounts, and corresponding permissions. The output is saved to a CSV file, providing a structured overview of the file system's permission settings.
 
-Example:
-```powershell
-.\GetFilePermissions.ps1 -FolderPath "C:\Path\to\your\folder"
-```
 ## Example Output
 Here's an example of what the output CSV file might look like:
 

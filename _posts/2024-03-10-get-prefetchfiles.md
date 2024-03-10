@@ -1,15 +1,19 @@
 ---
 title: Analyzing Prefetch Files with PowerShell
-date: 3/10/2024 12:00:00 -500
-categories: [scripting, incident response]
-tags: [powershell. artifact forensics]
+date: 2024-03-05 12:00:00 -0600
+categories: [scripting, powershell]
+tags: [powershell. artifact forensics, incident response]
 ---
 
-# Analyzing Prefetch Files with PowerShell
 Prefetch files, found in the Windows operating system's "Prefetch" folder, contain metadata about the execution of programs on a system. These files are used by Windows to optimize the loading of frequently used programs. Analyzing prefetch files can provide insights into the execution history of programs on a system, aiding in forensic investigations, system monitoring, and performance analysis.
 
 ## Download here:
 https://github.com/GluttonousSec/Get-PrefetchFiles
+
+## Using the Script:
+```powershell
+.\Get-PrefetchFiles -ExportCsv
+```
 
 ## Purpose of the Script
 

@@ -1,15 +1,19 @@
 ---
 title: Automating Password Change Reporting in Active Directory with PowerShell
-date: 3/10/2024 12:00:00 -500
-categories: [scripting, auditing]
+date: 2024-03-05 12:00:00 -0600
+categories: [scripting, powershell]
 tags: [powershell. compliance, password policy]
 ---
 
-# Automating Password Change Reporting in Active Directory with PowerShell
 Have you ever needed to track when users last changed their passwords in Active Directory? Manually checking each user's password change date can be time-consuming and tedious. Luckily, with PowerShell, you can automate this task easily.
 
 ## Download here:
 https://github.com/GluttonousSec/Get-PwdLastSet
+
+## Using the Script:
+```powershell
+.\Get-PwdLastSet
+```
 
 ## Purpose
 The purpose of the PowerShell script is to retrieve a list of all Active Directory users and their last password change timestamps. This information is valuable for auditing and security purposes, allowing administrators to ensure password policies are being followed and to identify potential security risks.

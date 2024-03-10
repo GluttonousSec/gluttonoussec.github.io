@@ -1,15 +1,19 @@
 ---
 title: Automating Active Directory Password Policy Assessment with PowerShell
-date: 3/10/2024 12:00:00 -500
-categories: [scripting, auditing]
+date: 2024-03-05 12:00:00 -0600
+categories: [scripting, powershell]
 tags: [powershell. password policy, compliance]
 ---
 
-# Automating Active Directory Password Policy Assessment with PowerShell
 Managing password policies in Active Directory is critical for maintaining the security of your organization's IT environment. Ensuring that password settings align with best practices and compliance requirements is essential for safeguarding against unauthorized access and data breaches. To streamline the assessment of password policy settings, we can leverage PowerShell scripting to retrieve and analyze these configurations automatically.
 
 ## Download here:
 https://github.com/GluttonousSec/Get-PasswordPolicy
+
+## Using the Script:
+```powershell
+.\Get-PasswordPolicy -ExportToCsv
+```
 
 ## Purpose
 The purpose of this PowerShell script is to retrieve password policy settings from Active Directory and provide administrators with a comprehensive overview of these configurations. By automating this process, organizations can quickly assess the strength and compliance of their password policies, identify any areas for improvement, and take proactive measures to enhance security.

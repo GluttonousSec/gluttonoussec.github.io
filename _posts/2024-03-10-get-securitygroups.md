@@ -1,15 +1,19 @@
 ---
 title: Enhancing Security with Active Directory Security Group Auditing
-date: 3/10/2024 12:00:00 -500
-categories: [scripting, auditing]
+date: 2024-03-05 12:00:00 -0600
+categories: [scripting, powershell]
 tags: [powershell. compliance, group membership]
 ---
 
-# Enhancing Security with Active Directory Security Group Auditing
 In today's digital landscape, ensuring the security of your organization's data and resources is paramount. Active Directory (AD) security groups play a crucial role in managing access controls and permissions within your network. However, maintaining an accurate and secure configuration of these groups is a challenging task for IT administrators.
 
 ## Download here:
 https://github.com/GluttonousSec/Get-SecurityGroups
+
+## Using the Script:
+```powershell
+.\Get-SecurityGroups
+```
 
 ## Purpose
 The purpose of this PowerShell script is to automate the auditing of security groups in Active Directory. By conducting regular security group audits, organizations can identify and address security risks, ensure compliance with security policies, and maintain a robust security posture.
