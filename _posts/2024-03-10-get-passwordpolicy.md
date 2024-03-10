@@ -8,7 +8,7 @@ tags: [powershell. password policy, compliance]
 Managing password policies in Active Directory is critical for maintaining the security of your organization's IT environment. Ensuring that password settings align with best practices and compliance requirements is essential for safeguarding against unauthorized access and data breaches. To streamline the assessment of password policy settings, we can leverage PowerShell scripting to retrieve and analyze these configurations automatically.
 
 ## Download here:
-https://github.com/GluttonousSec/Get-PasswordPolicy
+[Get-PasswordPolicy.ps1](https://github.com/GluttonousSec/Get-PasswordPolicy)
 
 ## Using the Script:
 ```powershell

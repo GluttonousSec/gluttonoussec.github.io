@@ -8,7 +8,7 @@ tags: [powershell. file permissions, compliance]
 Managing file permissions across a network can be a daunting task, especially as the number of files and folders grows. However, with PowerShell, you can streamline this process and gain valuable insights into your file system's security posture. Let's explore how a PowerShell script can help you retrieve file permissions and generate a detailed report.
 
 ## Download here:
-https://github.com/GluttonousSec/Get-FilePermissions
+[Get-FilePermissions.ps1](https://github.com/GluttonousSec/Get-FilePermissions)
 
 ## Using the Script:
 ```powershell

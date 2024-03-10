@@ -8,7 +8,7 @@ tags: [powershell. compliance, password policy]
 Have you ever needed to track when users last changed their passwords in Active Directory? Manually checking each user's password change date can be time-consuming and tedious. Luckily, with PowerShell, you can automate this task easily.
 
 ## Download here:
-https://github.com/GluttonousSec/Get-PwdLastSet
+[Get-PwdLastSet.ps1](https://github.com/GluttonousSec/Get-PwdLastSet)
 
 ## Using the Script:
 ```powershell

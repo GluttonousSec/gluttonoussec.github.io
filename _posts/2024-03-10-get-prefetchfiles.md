@@ -8,7 +8,7 @@ tags: [powershell. artifact forensics, incident response]
 Prefetch files, found in the Windows operating system's "Prefetch" folder, contain metadata about the execution of programs on a system. These files are used by Windows to optimize the loading of frequently used programs. Analyzing prefetch files can provide insights into the execution history of programs on a system, aiding in forensic investigations, system monitoring, and performance analysis.
 
 ## Download here:
-https://github.com/GluttonousSec/Get-PrefetchFiles
+[Get-PrefetchFiles.ps1](https://github.com/GluttonousSec/Get-PrefetchFiles)
 
 ## Using the Script:
 ```powershell
